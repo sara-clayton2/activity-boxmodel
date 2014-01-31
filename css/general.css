@@ -19,9 +19,77 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Georgia, Times, serif; 
+}
 }
 
 img {
 	width: 100%;
     display: block;
 }
+
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+.masthead { 
+    background-color: darkolivegreen; 
+    overflow: hidden; 
+}
+
+.logo { 
+    height: 2rem; 
+    width: auto; 
+    margin: .75rem 2%; 
+} 
+
+article { 
+    margin: 0; 
+    padding: 0 7%; 
+    overflow: hidden;
+} 
+
+h1 { 
+    margin:  2rem 0; 
+    font-size: 3rem; 
+    line-height: 3rem;
+    font-family:sans-serif;
+    align-items:center;
+    
+} 
+
+h1 + p { 
+    font-size: 1rem; 
+    line-height: 1.7rem; 
+    font-family:sans-serif;
+     align-items:center;
+}
+
+    
+figure { 
+    margin: 0 auto 2.5rem; 
+    width: 100%; 
+}
+
+
+footer p { 
+    color: white; 
+    margin: .5rem 5% 4rem; 
+    font-size: .75rem; 
+} 
+
+footer a { 
+    color: black; 
+} 
+
+footer { 
+    background-color: darkolivegreen; 
+    overflow: hidden;
+} 
+
+figcaption { 
+    font-size: .75rem; 
+    margin: .5rem 0 5 
+}
+
